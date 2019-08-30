@@ -1,5 +1,5 @@
-FROM kunstmaan/base-multichain
-MAINTAINER Kunstmaan
+FROM gossamr/base-multichain
+MAINTAINER gossamr
 
 COPY ./runchain.sh /root/runchain.sh
 COPY ./blocknotify.sh /root/blocknotify.sh
